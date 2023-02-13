@@ -1,0 +1,474 @@
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    margin: 20px;
+}
+
+p {
+    margin: 20px;
+}
+
+h1 {
+    margin 20px;
+}
+
+img {
+    width: 100%;
+    }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li, a, button {
+    font-family: "", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    z-index: 2;
+}
+
+.navtext {
+   width: 100px; 
+}
+
+
+
+
+<!--homepage-->
+
+.mainRunner {
+    border: 1px solid #000;
+  }
+
+  .hearts { 
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    top: -2050px;
+}
+
+  .venus-script {
+    width: 90%;
+    position: relative;
+    transform: rotate(-8deg);
+    z-index: 3;
+  }
+  
+  .newvenus {
+    width: 70%;
+    position: relative;
+    z-index: 2;
+    top: -700px;
+    left: -300px;
+  }
+
+
+  .hone { 
+    width: 30%;
+    position: relative;
+    z-index: 2;
+    top: -1300px;
+    left: 800px;
+}
+
+.htwo { 
+    width: 30%;
+    position: relative;
+    z-index: 2;
+    top: -1200px;
+    left: 400px;  
+}
+.hthree { 
+    width: 30%;
+    position: relative;
+    z-index: 2;
+    top: -1100px;
+    left: 60px;  
+}
+
+.hfour { 
+    width: 30%;
+    position: relative;
+    z-index: 2;
+    top: -1100px;
+    left: 800px;
+}
+
+.line1 {
+    border-left: 2px solid #cb3640;
+    height: 1200px;
+    position: absolute;
+    top: -1100px;
+    align-items: center;
+  }
+
+  
+  <!--aboutpage-->
+
+  .mainRunner {
+    border: 1px solid rgb(142, 41, 41);
+  }
+
+  .venus-script-about { 
+    width: 40%;
+    transform: rotate(-8deg);
+    position: relative;
+    z-index: 1;
+    top: 200px;
+}
+
+  .roman {
+    width: 30%;
+    position: relative;
+    transform: rotate(-6deg);
+    z-index: 1;
+    left: -430px;
+    top: 300px;
+  }
+  
+  .goddess {
+    width: 30%;
+    position: relative;
+    z-index: 2;
+    left: 200px;
+    top: -300px;
+  }
+
+
+  .of { 
+    width: 9%;
+    position: relative;
+    z-index: 2;
+    left: 20px;
+    top: -200px;
+}
+
+.head { 
+    width: 15%;
+    position: relative;
+    transform: rotate(3deg);
+    z-index: 2;
+    top: -600px;
+    right: -340px;  
+}
+
+.column { 
+    width: 14%;
+    position: relative;
+    z-index: 1;
+    top: -300px;
+    right: -400px;  
+}
+
+
+.hearts-3-1 { 
+    width: 40%;
+    position: relative;
+    z-index: 1;
+    top: -100px;
+    left: 40px;
+}
+
+  .love {
+    width: 40%;
+    position: relative;
+    transform: rotate(-8deg);
+    z-index: 2;
+    right: -200px;
+    top: -50px;
+  }
+  
+  .maternity {
+    width: 40%;
+    position: relative;
+    z-index: 2;
+    top: -10px;
+    right: -760px;
+    transform: rotate(1deg);
+  }
+
+
+  .desire { 
+    width: 40%;
+    position: relative;
+    z-index: 2;
+    top: 100px;
+    right: -200px;
+    transform: rotate(-1deg);
+}
+
+.feminity { 
+    width: 40%;
+    position: relative;
+    z-index: 2;
+    top: 130px;
+    right: -750px;
+    transform: rotate(2deg);  
+}
+.sex { 
+    width: 40%;
+    position: relative;
+    z-index: 2;
+    top: 250px;
+    right: -200px;
+    transform: rotate(3deg);  
+}
+
+.hearts-3-2 { 
+    width: 40%;
+    position: relative;
+    z-index: 2;
+    top: 190px;
+    left: 40px;
+}
+
+.linetwo {
+    border-left: 2px solid #cb3640;
+    height: 3000px;
+    position: absolute;
+    align: center;
+    top: 0px;
+    z-index: 1;
+  }
+
+<!--lovers-->
+
+.loversheader {
+    position: absolute;
+    width: 348px;
+    height: 93px;
+    left: 882.65px;
+    top: 253.38px;
+}
+
+.mansone {
+    position: absolute;
+width: 384px;
+height: 512px;
+left: 212.51px;
+top: 467px;
+}
+
+.adonis {
+position: absolute;
+width: 260px;
+height: 120px;
+left: 481.42px;
+top: 604px;
+}
+
+.manstwo {
+    position: absolute;
+width: 408px;
+height: 838px;
+left: 830px;
+top: 1353px;
+}
+
+.mercury {
+    position: absolute;
+    width: 338px;
+    height: 120px;
+    left: 621px;
+    top: 1399.73px;
+}
+
+.mansthree {
+    position: absolute;
+    width: 530px;
+    height: 796px;
+    left: 109.89px;
+    top: 2524.14px;
+}
+
+.mars {
+    position: absolute;
+width: 206px;
+height: 120px;
+left: 67.51px;
+top: 2611.48px;
+}
+
+.mansfour {
+    position: absolute;
+    width: 300px;
+    height: 478px;
+    left: 938px;
+    top: 3889px;
+}
+
+.anchisis {
+    position: absolute;
+    width: 326px;
+    height: 120px;
+    left: 599px;
+    top: 3934.07px;
+}
+
+.heartone {
+    position: absolute;
+    width: 132px;
+    height: 100px;
+    left: 286px;
+    top: 406px;
+}
+
+.hearttwo {
+    position: absolute;
+    width: 74px;
+    height: 56px;
+    left: 1023px;
+    top: 1271.25px;
+}
+
+.heartthree {
+    position: absolute;
+    width: 74px;
+    height: 56px;
+    left: 315.51px;
+    top: 2495px;
+}
+
+.heartfour {
+    position: absolute;
+    width: 132px;
+    height: 100px;
+    left: 994px;
+    top: 3756px;
+}
+
+.linethree {
+    border: 1px solid #CB364D;
+    transform: rotate(90deg);
+}
+
+.linefour {
+    border: 1px solid #CB364D;
+    transform: rotate(90deg);
+}
+
+<!--artworkpage-->
+
+
+
+.artworkheader {
+    position: absolute;
+    width: 455px;
+    height: 93px;
+    left: 107.4px;
+    top: 257px;
+}
+
+.marsvenus {
+    position: absolute;
+    width: 548px;
+    height: 3674px;
+    left: 694px;
+    top: -31px;
+}
+
+.marshover {
+    position: absolute;
+    width: 552px;
+    height: 224px;
+    left: 694px;
+    top: 630px;
+    display: none;
+
+}
+
+.statue {
+    position: absolute;
+    width: 349px;
+    height: 896px;
+    left: 806px;
+    top: 1049px;
+    z-index: 2;
+}
+
+.baird {
+    position: absolute;
+    width: 548px;
+    height: 410px;
+    left: 720px;
+    top: 2175px;
+}
+
+.bairdhover {
+    position: absolute;
+    width: 548px;
+    height: 410px;
+    left: 720px;
+    top: 2175px;
+    display: none;
+}
+
+.heartsartwork {
+    position: absolute;
+    left: 68px;
+    top: 1191px;
+    z-index: 1;
+}
+
+.birthof {
+    position: absolute;
+    width: 548px;
+    height: 428px;
+    left: 720px;
+    top: 2815px;
+}
+
+.birthofhover {
+    position: absolute;
+    width: 548px;
+    height: 428px;
+    left: 720px;
+    top: 2815px;
+    display: none;
+
+}
+
+.linefive
+border: 1px solid #CB364D;
+transform: rotate(90deg);
+
+<!--mythspage-->
+
+.mythsheader {
+    position: absolute;
+    width: 330px;
+    height: 93px;
+    left: 112.4px;
+    top: 262px;
+    }
+
+.headless {
+    position: absolute;
+    width: 488px;
+    height: 906px;
+    left: 142px;
+    top: 521px;
+}
+
+.cupid {
+    position: absolute;
+    width: 469.02px;
+    height: 1525px;
+    left: 821px;
+    top: 1794px;
+}
+
+.heartsmyths {
+    position: absolute;
+    left: 68px;
+    top: 384px;
+}
