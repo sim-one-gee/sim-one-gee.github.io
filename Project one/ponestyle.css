@@ -50,66 +50,64 @@ header {
   }
 
   .hearts { 
-    width: 100%;
-    position: relative;
+    position: absolute;
+    width: 1304px;
+    height: 70px;
+    left: 68px;
+    top: 40px;
     z-index: 1;
-    top: -2050px;
 }
 
-  .venus-script {
-    width: 90%;
-    position: relative;
-    transform: rotate(-8deg);
+.grouphome {
+    position: absolute;
+    width: 1296.94px;
+    height: 1210px;
+    left: 38px;
+    top: -167px;
     z-index: 3;
-  }
+}
+
   
   .newvenus {
-    width: 70%;
-    position: relative;
+    position: absolute;
+    width: 864px;
+    height: 1138px;
+    left: -39.09px;
+    top: -110px;
     z-index: 2;
-    top: -700px;
-    left: -300px;
   }
 
 
   .hone { 
+    position: absolute;
     width: 30%;
-    position: relative;
-    z-index: 2;
-    top: -1300px;
-    left: 800px;
+    left: 906px;
+    top: 444.25px;
+    z-index: 3;
 }
 
 .htwo { 
     width: 30%;
-    position: relative;
-    z-index: 2;
-    top: -1200px;
-    left: 400px;  
+    position: absolute;
+    left: 926px;
+    top: 560.25px;
+    z-index: 3;  
 }
 .hthree { 
     width: 30%;
-    position: relative;
-    z-index: 2;
-    top: -1100px;
-    left: 60px;  
+    position: absolute;
+    left: 886px;
+    top: 700.25px;
+    z-index: 3;  
 }
 
 .hfour { 
     width: 30%;
-    position: relative;
-    z-index: 2;
-    top: -1100px;
-    left: 800px;
-}
-
-.line1 {
-    border-left: 2px solid #cb3640;
-    height: 1200px;
     position: absolute;
-    top: -1100px;
-    align-items: center;
-  }
+    left: 926px;
+    top: 841.25px;
+    z-index: 3;
+}
 
   
   <!--aboutpage-->
@@ -119,37 +117,37 @@ header {
   }
 
   .venus-script-about { 
-    width: 40%;
-    transform: rotate(-8deg);
-    position: relative;
+    position: absolute;
+    width: 720px;
+    height: 2525px;
+    left: 0px;
+    top: 0px;
     z-index: 1;
-    top: 200px;
 }
 
   .roman {
-    width: 30%;
-    position: relative;
-    transform: rotate(-6deg);
-    z-index: 1;
-    left: -430px;
-    top: 300px;
+    width: 35%;
+    z-index: 1;     
+    position: absolute;
+    left: 92px;
+    top: 580.97px;
   }
   
   .goddess {
-    width: 30%;
-    position: relative;
-    z-index: 2;
-    left: 200px;
-    top: -300px;
+    width: 35%;
+    z-index: 1;     
+    position: absolute;
+    left: 149px;
+    top: 696.12px;
   }
 
 
   .of { 
-    width: 9%;
-    position: relative;
-    z-index: 2;
-    left: 20px;
-    top: -200px;
+    width: 12%;
+    z-index: 1;     
+    position: absolute;
+    left: 280px;
+    top: 800px;
 }
 
 .head { 
@@ -179,12 +177,11 @@ header {
 }
 
   .love {
-    width: 40%;
-    position: relative;
-    transform: rotate(-8deg);
-    z-index: 2;
-    right: -200px;
-    top: -50px;
+    width: 35%;
+    z-index: 1;     
+    position: absolute;
+    left: 816px;
+    top: 1242.22px;
   }
   
   .maternity {
@@ -231,14 +228,6 @@ header {
     left: 40px;
 }
 
-.linetwo {
-    border-left: 2px solid #cb3640;
-    height: 3000px;
-    position: absolute;
-    align: center;
-    top: 0px;
-    z-index: 1;
-  }
 
 <!--lovers-->
 
@@ -252,18 +241,18 @@ header {
 
 .mansone {
     position: absolute;
-width: 384px;
-height: 512px;
-left: 212.51px;
-top: 467px;
+    width: 384px;
+    height: 4908px;
+    left: 212.51px;
+    top: -75px;
 }
 
 .adonis {
-position: absolute;
-width: 260px;
-height: 120px;
-left: 481.42px;
-top: 604px;
+    position: absolute;
+    width: 260px;
+    height: 120px;
+    left: 481.42px;
+    top: 604px;
 }
 
 .manstwo {
@@ -346,26 +335,15 @@ top: 2611.48px;
     top: 3756px;
 }
 
-.linethree {
-    border: 1px solid #CB364D;
-    transform: rotate(90deg);
-}
-
-.linefour {
-    border: 1px solid #CB364D;
-    transform: rotate(90deg);
-}
 
 <!--artworkpage-->
 
 
-
 .artworkheader {
     position: absolute;
-    width: 455px;
-    height: 93px;
     left: 107.4px;
     top: 257px;
+    z-index: 1;
 }
 
 .marsvenus {
@@ -383,7 +361,6 @@ top: 2611.48px;
     left: 694px;
     top: 630px;
     display: none;
-
 }
 
 .statue {
@@ -436,10 +413,6 @@ top: 2611.48px;
     display: none;
 
 }
-
-.linefive
-border: 1px solid #CB364D;
-transform: rotate(90deg);
 
 <!--mythspage-->
 
