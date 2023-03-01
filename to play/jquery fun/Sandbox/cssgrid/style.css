@@ -1,0 +1,27 @@
+* {box-sizing: border-box;}
+img {
+  width:100%;
+}
+body {
+  margin:0;
+}
+
+.cat {
+  display:grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-column-gap:2rem;
+  grid-row-gap:4rem;
+  grid-auto-rows: auto;
+}
+
+.cat-gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px,1fr));
+    padding: 20px;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.kitten {
+  border:1px solid black;
+}
