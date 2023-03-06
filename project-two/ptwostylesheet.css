@@ -1,0 +1,92 @@
+
+
+p {font-family: 'Lora', serif;
+}
+
+h1 {font-family: 'Lora', serif;
+  font-size: 30px;
+}
+
+
+.container {
+    display: grid; 
+    grid-template-columns: 1.2fr 3fr 0.5fr; 
+    grid-template-rows: 0.1fr 1fr 0.8fr 0.8fr 0.8fr 1fr 0.8fr 0.8fr 0.8fr 1fr 0.8fr 0.8fr 0.8fr 1fr 0.1fr; 
+    gap: 0px 0px;
+    margin: 0px;
+
+  }
+  .nav {
+    padding: 5px;
+    border-right: .3px solid black;
+    border-bottom: .3px solid black;
+  }
+
+  .picturebox {
+    position: realtive;
+    border-right: .3px solid black;
+    border-bottom: .3px solid black;
+    padding: 5px;
+  }
+
+  .textbox {
+    border-top: .3px solid black;
+    padding: 30px;
+    position: bottom;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .pricebox {
+    border-top: .3px solid black;
+    padding: 50px;
+    position: bottom;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .productbreak {
+    border-right: .3px solid black;
+    border-bottom: .3px solid black;
+    padding: 5px;
+  }
+
+  .productbreakempty {
+
+    padding: 5px;
+  }
+
+  .footer {
+    padding: 5px;
+    border-top: .3px solid black;
+  }
+
+  .bluefuzz {
+    position: absolute;
+    z-index:-1;
+    top: -110px;
+  }
+
+  .greenfuzz {
+    position: absolute;
+    z-index:-1;
+    top: -110px;
+    left: 0px;
+  }
+
+  .orangefuzz {
+    position: absolute;
+    z-index:-1;
+    top: px;
+    left: 0px;
+  }
+
+  .fuzzparent {
+    position: relative;
+  }
+
+  .card {
+    display: flex;
+  }
