@@ -19,7 +19,7 @@ h1 {font-family: 'Lora', serif;
   .nav {
     padding: 5px;
     border-right: .3px solid black;
-    border-bottom: .3px solid black;
+
   }
 
   .picturebox {
@@ -51,11 +51,16 @@ h1 {font-family: 'Lora', serif;
     border-right: .3px solid black;
     border-bottom: .3px solid black;
     padding: 5px;
+    position: bottom;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
   }
 
   .productbreakempty {
 
     padding: 5px;
+    border-top: .3px solid black;
   }
 
   .footer {
