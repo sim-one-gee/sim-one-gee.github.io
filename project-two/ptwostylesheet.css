@@ -95,3 +95,61 @@ h1 {font-family: 'Lora', serif;
   .card {
     display: flex;
   }
+
+  <!-- aboutpage --->
+
+  .containerabout {
+    display: grid; 
+
+    grid-template-rows: auto 1fr;
+    grid-template-columns: auto 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+    gap: 72px;
+    height: 100%;
+ 
+
+  }
+
+
+
+.navabout {
+  border-bottom: .3px solid white;
+  background-color: green;
+  padding: 5px;
+  grid-row-start: 1;
+  grid-column-start: 1;
+
+  grid-row-end: 2;
+  grid-column-end: 12;
+}
+
+.aboutleftbox {
+  border-right: .3px solid white;
+  background-color: yellow;
+  grid-row-start: 2;
+  grid-column-start: 1;
+
+  grid-row-end: 3;
+  grid-column-end: 3;
+}
+
+.aboutboxes {
+  border-left: .3px solid white;
+  background-color: blue;
+  grid-row-start: 2;
+  grid-column-start: 3;
+
+  grid-row-end: 3;
+  grid-column-end: 11;
+  padding: 5px;
+}
+
+.navaboutright {
+  background-color: purple;
+  padding: 5px;
+  grid-row-start: 2;
+  grid-column-start: 11;
+
+  grid-row-end: 3;
+  grid-column-end: 12;
+}
