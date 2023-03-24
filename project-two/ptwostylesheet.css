@@ -16,12 +16,12 @@ h2 {font-family: 'Climate Crisis', cursive;
   font-size: 15px;
 }
 
-a {
-  text-decoration: none;
-  hover: none;
-  
+a  {
+text-decoration: none;
+color: black;
+visited: black;
+hover: black;
 }
-
 
 
 
@@ -40,7 +40,7 @@ ul.home {
 }
 
 li {
-  
+  color: black;
 }
 
 
