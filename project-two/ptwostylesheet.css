@@ -132,6 +132,20 @@ img {vertical-align: middle;}
   
 /*allproducts*/
 
+.shop-header {
+  display: inline;
+}
+
+.shop-nav {
+  display: grid; 
+  grid-template-columns: 3fr 3fr 3fr 3fr; 
+  gap: 0px 0px;
+  margin: 0px;
+
+}
+
+
+
 .container {
     display: grid; 
     grid-template-columns: 1.2fr 3fr 0.5fr; 
@@ -170,6 +184,7 @@ img {vertical-align: middle;}
   .productbreak {
     border-right: .3px solid black;
     border-bottom: .3px solid black;
+    border-top: .3px solid black;
     padding: 5px;
     position: bottom;
     display: flex;
