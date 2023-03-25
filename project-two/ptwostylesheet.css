@@ -43,6 +43,11 @@ li {
   color: black;
 }
 
+.sidebar {
+  margin: 0px;
+  padding: 0px;
+}
+
 
 .content-home {
   position: realtive;
@@ -58,6 +63,12 @@ li {
 
 .card {
   display: flex;
+}
+
+.logo {
+  position: relative;
+  border-top: none;
+  border-bottom: none;
 }
 
 
@@ -104,24 +115,24 @@ img {vertical-align: middle;}
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #bbb;
+  background-color: white;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 
 .active {
-  background-color: #717171;
+  background-color: white;
 }
 
 /* Fading animation */
 .fade {
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 2s;
 }
 
 @keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .10} 
   to {opacity: 1}
 }
 
@@ -137,7 +148,9 @@ img {vertical-align: middle;}
   display: grid; 
   grid-template-columns: 5fr 5fr 5fr 5fr; 
   gap: 0px 0px;
-  margin: 0px;
+  margin: 30px;
+  margin-left: 500px;
+
 }
 
 ul.shop {
@@ -153,6 +166,11 @@ ul.shop {
     gap: 0px 0px;
     margin: 0px;
 
+  }
+
+  .productbreakemptytop {
+
+    padding: 5px;
   }
 
 
@@ -182,7 +200,6 @@ ul.shop {
   }
 
   .productbreak {
-    border-right: .3px solid black;
     border-bottom: .3px solid black;
     padding: 5px;
     position: bottom;
@@ -236,8 +253,17 @@ ul.shop {
 
   }
 
+.h1-about {
+  color: white;
+}
+
+.p-about {
+  color: white;
+}
+
   .aboutcontainer {
     display: grid; 
+    background: black;
     grid-template-columns: 1fr 5fr ; 
     grid-template-rows: 10fr 10fr 10fr; 
     gap: 0px 0px;
@@ -245,10 +271,14 @@ ul.shop {
 
   }
 
+  a.aboutnav {
+    color: white;
+  }
+
 
   .sidebar {
     position: realtive;
-    border-right: .3px solid black;
+    border-right: .3px solid white;
     padding: 5px;
   }
 
@@ -260,7 +290,7 @@ ul.shop {
 
   .footer {
     padding: 5px;
-    border-top: .3px solid black;
+    border-top: .3px solid white;
   }
 
 
