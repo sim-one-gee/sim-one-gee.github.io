@@ -87,7 +87,8 @@ img {vertical-align: middle;}
 .slideshow-container {
   max-width: 1000px;
   position: relative;
-  margin: auto;
+  margin-top: 17px;
+  margin-left: 25px;
 }
 
 /* Caption text */
@@ -333,3 +334,8 @@ input[type=submit]:hover {
   background-color: black;
   padding: 20px;
 }  
+
+
+
+/*Discover Page */
+
