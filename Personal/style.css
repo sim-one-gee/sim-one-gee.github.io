@@ -6,6 +6,7 @@ body {
 }
 p {
     margin: 20px;
+    width: 60%;
 }
 h1 {
     margin 20px;
@@ -27,5 +28,17 @@ img {
     margin: 0 px;
 }
 
-<!--artworkpage-->
+.myspace {
+    display: flex;
+    width: 50%;
+    height: 50%;
+    order: 1;
+}
+
+.spacejam {
+    display: flex;
+    width: 50%;
+    height: 50%;
+    order: 2;
+}
 
